@@ -9,3 +9,12 @@ But If someone's webcam already mirroring the feed itself or for use of "OBS Vir
 ## Solution:-
 
 There is no option to toggle this functionality in "Discord". So I made this extension which will delete the "mirror" class form the video element thus showing the actual feed from the "Virtual Cam".
+
+## How to Use this Extension:-
+
+- I don't have developer account to upload this extension in "Chrome Extension Store". Need to be installed manually
+- Download all the contents of this repo into a folder
+- Open Chrome Extension Manager: [Click Here](chrome://extensions/)
+- Turn on "Developer Mode" form the top-right section
+- Click "Load Unpacked" and browse to the previously downloaded folder and load the extension
+- You are ready to go.....
