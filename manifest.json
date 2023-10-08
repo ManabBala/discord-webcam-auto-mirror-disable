@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Discord Webcam Auto Mirror Disabled",
+	"version": "1.0",
+	"description": "Discord mirror webcam feed. But when using OBS for virtual webcam, this functionality is annoying. This extension disable that.",
+
+	"content_scripts": [
+		{
+			"matches": ["https://discord.com/channels/*/*"],
+			"js": ["content.js"]
+		}
+	]
+}
