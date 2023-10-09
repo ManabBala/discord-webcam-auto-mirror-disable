@@ -6,7 +6,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["https://discord.com/channels/*/*"],
+			"matches": ["https://discord.com/*"],
 			"js": ["content.js"]
 		}
 	]
