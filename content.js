@@ -6,7 +6,7 @@ function injectCode() {
 			mutation.addedNodes.forEach((node) => {
 				if (node instanceof HTMLElement) {
 					// trying to find video element with the mirror class
-					let cls = "mirror-";
+					let cls = "mirror_";
 					let element = node.querySelector(`video[class*="${cls}"]`);
 
 					// if video element found then delete the class
